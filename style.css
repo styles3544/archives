@@ -88,6 +88,14 @@ ul, li, a {
     flex: 1;
 }
 
+.flex-container-three {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
 .footer {
     margin-top: auto;
     background-color: #1F2937;
@@ -115,4 +123,27 @@ ul, li, a {
 
 .footer .author-name {
     padding-bottom: 10px;
+}
+
+.container-path {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-path .path-list > li {
+    padding: 10px;
+}
+
+.path-list > li {
+    list-style-type: decimal;
+}
+
+.container-path p {
+    padding: 0px 16px;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
 }
