@@ -112,3 +112,7 @@ ul, li, a {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.footer .author-name {
+    padding-bottom: 10px;
+}
